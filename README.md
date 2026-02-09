@@ -1,3 +1,4 @@
+-------
 The idea is to develop an agent which generates sql code based on the columns and filters extracted and refers to the knowledge source for the sql code generation 
 	Plan for the agent via RAG
 	1. Ask/take/get input from user as pdf 
