@@ -1,5 +1,5 @@
 ## This is the flowchart for the agent flow
-
+'''
 User (PDF Input)
         |
         v
@@ -13,9 +13,12 @@ User Validation
    │       User Feedback (Query 2)
    │           |
    │           v
-   │       Regenerate SQL if needed → Repeat until satisfied
+   │       Regenerate SQL → Repeat until satisfied
    │
    └── No → User Correction (Query 1)
                 |
                 v
         Agent Refines Extraction → Back to Validation
+        
+
+'''
