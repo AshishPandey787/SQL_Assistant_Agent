@@ -1,4 +1,4 @@
-''' The idea is to develop an agent which generates sql code based on the columns and filters extracted and refers to the knowledge source for the sql code generation 
+The idea is to develop an agent which generates sql code based on the columns and filters extracted and refers to the knowledge source for the sql code generation 
 	Plan for the agent via RAG
 	1. Ask/take/get input from user as pdf 
 	2. Read the pdf and extract the column and send the column and filters to the user 
@@ -8,4 +8,4 @@
 	6. Take query 2 (regarding the query generation) from user 
 	7. Then based on the and query 2 from the user, refer to the knowledge source again
 	8. Take the feedback from the user and regenerate the result again and send to the user
-'''
+
